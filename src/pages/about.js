@@ -1,3 +1,4 @@
+/* eslint-disable */
 import AnimatedText from "@/Components/AnimatedText"
 import Experience from "@/Components/Experience"
 import Layout from "@/Components/Layout"
