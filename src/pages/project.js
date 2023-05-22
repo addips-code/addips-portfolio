@@ -11,6 +11,7 @@ import snapchat from '../../public/images/projects/snapchat.png'
 import Niger from '../../public/images/projects/Niger.png'
 import aacei from '../../public/images/projects/aacei.png'
 import { motion } from 'framer-motion'
+import TransitionEffect from '@/Components/TransitionEffect'
 
 
 const FramerImage = motion(Image);
@@ -93,7 +94,7 @@ function project() {
           <title>Adeola | Projects Page</title>
           <meta name="description" content="Adeola Profile"/>
       </Head>
-
+        <TransitionEffect/>
         <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
             <Layout className='pt-16'>
                 <AnimatedText text="Imagination Trumps Knowledge!" className='mb-16 lg:!text-7xl sm:!text-6xl xs:text-4xl sm:mb-8'/>
